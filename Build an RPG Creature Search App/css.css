@@ -1,0 +1,94 @@
+/* Reset básico */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: #15142b;
+  color: #ffffff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  color: #e2e2ff;
+  margin-bottom: 0.5rem;
+}
+
+header a {
+  color: #6ccaf2;
+  text-decoration: none;
+}
+
+main {
+  background-color: #f6f6fc;
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 8px 8px 0px rgba(0, 0, 0, 0.3);
+  max-width: 400px;
+  width: 100%;
+  color: #000;
+}
+
+#search-input {
+  width: calc(100% - 100px);
+  padding: 0.5rem;
+  border-radius: 0.5rem 0 0 0.5rem;
+  border: 2px solid #3c9a9a;
+  font-size: 1rem;
+}
+
+#search-button {
+  width: 90px;
+  padding: 0.5rem;
+  background-color: #3c9a9a;
+  color: white;
+  border: none;
+  border-radius: 0 0.5rem 0.5rem 0;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+#search-button:hover {
+  background-color: #2a6e6e;
+}
+
+.creature-stats {
+  margin-top: 2rem;
+}
+
+.stat {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+#creature-name {
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #3c9a9a;
+}
+
+#types p {
+  display: inline-block;
+  margin: 0.3rem;
+  padding: 0.3rem 0.8rem;
+  background-color: #ff7043;
+  color: white;
+  border-radius: 5px;
+  font-size: 0.9rem;
+  font-weight: bold;
+}
